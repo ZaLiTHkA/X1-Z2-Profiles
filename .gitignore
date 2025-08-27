@@ -1,0 +1,14 @@
+# we must first block everything in root directory..
+/*
+
+# allow itself, of course..
+!.gitignore
+
+# allow main main app settings
+!settings.ini
+
+# allow the folder with custom profiles
+!Profiles/
+
+# allow mouse profile files, including root and custom profiles
+!**/*.spcf
