@@ -11,4 +11,5 @@
 !Profiles/
 
 # allow mouse profile files, including root and custom profiles
-!**/*.spcf
+!autosave.spcf
+!Profiles/**/*.spcf
